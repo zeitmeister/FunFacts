@@ -4,16 +4,13 @@ import java.util.Random;
 
 public class FactBook {
     String[] factsArray = {
-            "Kiss och bajs",
-            "Vem är coolast av katterna",
-            "Rickard är en kusin till mig"
+            "Tommy Claesson e så jävla go",
     };
     //fields or members
     //methods
     public String getFact() {
         Random random = new Random();
         int randomNumber = random.nextInt(factsArray.length);
-        String hellos = "fwefwef";
         return factsArray[randomNumber];
 
     }

@@ -12,7 +12,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="You're crazy Jesus!"
+        android:text="@string/work_hours_calculator"
         android:textColor="#80ffffff" />
 
     <Button
@@ -21,6 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp"
         android:background="@android:color/white"
         android:text="Räkna ut"
         android:textColor="#51b46d" />
@@ -29,11 +30,11 @@
         android:id="@+id/factTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="215dp"
-        android:text="Ants stretch when they wake up in the morning"
+        android:layout_marginBottom="179dp"
+        android:layout_marginStart="39dp"
+        android:text="Hi there!"
         android:textColor="@android:color/white"
         android:textSize="24sp" />
 
@@ -43,8 +44,17 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="128dp"
+        android:layout_marginTop="85dp"
         android:ems="10"
-        android:inputType="number" />
+        android:inputType="text" />
 
+    <EditText
+        android:id="@+id/editMinutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="191dp"
+        android:ems="10"
+        android:inputType="text" />
 </RelativeLayout>
