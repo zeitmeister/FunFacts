@@ -62,6 +62,7 @@ public class FunFactsActivity extends AppCompatActivity {
                     hoursCount.clearHours();
                     minutesCount.clearMinutes();
                 }else{
+                    alertUserAboutError();
                     minutesInput.getText().clear();
                     hoursInput.getText().clear();
                     hoursCount.clearHours();
@@ -89,6 +90,11 @@ public class FunFactsActivity extends AppCompatActivity {
         hoursInput.setText("");
         minutesInput.setText("");
         timeTextView.setText("");
+    }
+
+    private void alertUserAboutError() {
+        AlertDialogFragment dialog = new AlertDialogFragment();
+        dialog.show(getFragmentManager(), "error_dialog");
     }
 
 }

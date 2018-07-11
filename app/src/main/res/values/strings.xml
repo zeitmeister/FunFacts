@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Fun Facts</string>
     <string name="work_hours_calculator">Work Hours Calculator</string>
+    <string name="error_message_title">Wrong Input</string>
+    <string name="error_message">Can\'t enter blank input, minutes can\'t exceed 59</string>
+    <string name="error_button_text">Ok</string>
 </resources>
