@@ -76,15 +76,6 @@ public class FunFactsActivity extends AppCompatActivity {
         Log.d(TAG, "We're logging from the log röv");
     }
 
-    public boolean inputCheck(String input){
-        int checker;
-        try {
-            checker = Integer.parseInt(input);
-            return true;
-        } catch (NumberFormatException e) {
-            return false;
-        }
-    }
     @Override
     public void onBackPressed() {
         hoursInput.setText("");
